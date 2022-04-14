@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <title>Huddle</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <img class="nav__logo" src="images/logo.svg" alt="Huddle logo">
+        <button class="nav__btn" type="button">
+            Try it free
+        </button>
+    </nav>
+    <section class="get-started-section">
+        <h2 class="get-started-section__header">Build The Community Your Fans Will Love</h2>
+        <p class="get-started-section__paragraph">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+            Create connections with your users as you engage in genuine discussion.
+        </p>
+        <button class="get-started-section__button" type="button">
+            Get Started For Free
+        </button>
+        <img class="get-started-section__img" src="images/screen-mockups.svg" alt="screens">
+    </section>
+    <section class="numbers-section">
+        <div class="numbers-section__item">
+            <img class="numbers-section__item__img" src="images/icon-communities.svg" alt="communities">
+            <p class="numbers-section__item__number">1.4k+</p>
+            <p class="numbers-section__item__text">Communities Formed</p>
+        </div>
+        <div class="numbers-section__item">
+            <img class="numbers-section__item__img--messages" src="images/icon-messages.svg" alt="messages">
+            <p class="numbers-section__item__number--messages">2.7m+</p>
+            <p class="numbers-section__item__text">Messages Sent</p>
+        </div>
+    </section>
+    <img class="grow-top-curve hide-desktop" src="images/bg-section-top-mobile-1.svg" alt="top section">
+    <img class="grow-top-curve show-desktop" src="images/bg-section-top-desktop-1.svg" alt="top section">
+    <section class="feature-section--grow-together">
+        <img class="feature-section__img" src="images/illustration-grow-together.svg" alt="grow together">
+        <div class="feature-section__content">
+            <h3 class="feature-section__header">Grow Together</h3>
+            <p class="feature-section__paragraph">
+                Generate meaningful discussions with your audience and build a strong, loyal community.
+                Think of the insightful conversations you miss out on with a feedback form.
+            </p>
+        </div>
+    </section>
+    <img class="grow-bottom-curve hide-desktop" src="images/bg-section-bottom-mobile-1.svg" alt="bottom">
+    <img class="grow-bottom-curve show-desktop" src="images/bg-section-bottom-desktop-1.svg" alt="bottom">
+    <section class="feature-section--flow-conversation">
+        <img class="feature-section__img flow-img" src="images/illustration-flowing-conversation.svg" alt="flowing conversation">
+        <div class="feature-section__content flow-content">
+            <h3 class="feature-section__header">Flowing Conversations</h3>
+            <p class="feature-section__paragraph">
+                You wouldn't paginate a conversation in real life, so why do it online?
+                Our threads have just-in-time loading for a more natural flow.
+            </p>
+        </div>
+    </section>
+    <img class="users-top-curve hide-desktop" src="images/bg-section-top-mobile-2.svg" alt="top">
+    <img class="users-top-curve show-desktop" src="images/bg-section-top-desktop-2.svg" alt="top">
+    <section class="feature-section--your-users">
+        <img class="feature-section__img"  src="images/illustration-your-users.svg" alt="your user">
+        <div class="feature-section__content">
+            <h3 class="feature-section__header">Your Users</h3>
+            <p class="feature-section__paragraph">
+                It takes no time at all to integrate Huddle with your app's authentication solution.
+                This means, once signed in to your app, your users can start chatting immediately.
+            </p>
+        </div>
+    </section>
+    <img class="users-bottom-curve hide-desktop" src="images/bg-section-bottom-mobile-2.svg" alt="top">
+    <img class="users-bottom-curve show-desktop" src="images/bg-section-bottom-desktop-2.svg" alt="top">
+    <section class="get-started-section-bottom">
+        <h2 class="get-started-section-bottom__header">
+            Ready To Build Your Community?
+        </h2>
+        <button class="get-started-section-bottom__button" type="button">
+            Get Started For Free
+        </button>
+    </section>
+    <img class="footer-curve-top" src="images/bg-footer-top-mobile.svg" alt="footer-top">
+    <footer class="footer">
+        <section class="footer__newsletter">
+            <p class="footer__newsletter__header">NEWSLETTER</p>
+            <p class="footer__newsletter__paragraph">
+                To receive tips on how to grow your community, sign up to our weekly newsletter.
+                We’ll never send you spam or pass on your email address
+            </p>
+            <form id="newsletterForm" class="footer__newsletter__form">
+                <div class="footer__newsletter__form__email-control">
+                    <input id="emailInput" class="footer__newsletter__form__email-input" type="email">
+                    <p
+                            id="invalidText"
+                            class="footer__newsletter__form__email-incorrect-message footer__newsletter__form__email-incorrect-message--hidden">Check your email please</p>
+                </div>
+                <button id="submitButton" class="footer__newsletter__form__submit-button" type="submit">Subscribe</button>
+            </form>
+        </section>
+        <div class="footer-left">
+            <section class="footer__logo">
+                <img class="footer__logo__img" src="images/logo-bottom.svg" alt="logo">
+                <p class="footer__logo__paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+                    vestibulum a, ultrices quis sem.
+                </p>
+            </section>
+            <div class="footer__social-item">
+                <img class="footer__social-item__image" src="images/icon-phone.svg" alt="phone">
+                <p class="footer__social-item__text">Phone: +1-543-123-4567</p>
+            </div>
+            <div class="footer__social-item">
+                <img class="footer__social-item__image" src="images/icon-email.svg" alt="email">
+                <p class="footer__social-item__text">example@company.com</p>
+            </div>
+            <section class="footer__social">
+                <img class="footer__social__item"  src="images/post-facebook.svg" alt="facebook">
+                <img class="footer__social__item" src="images/instagram.svg" alt="instagram">
+                <img class="footer__social__item" src="images/post-twitter.svg" alt="twitter">
+            </section>
+        </div>
+    </footer>
+</body>
+<script src="scripts/index.js"></script>
+</html>
